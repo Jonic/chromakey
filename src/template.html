@@ -5,9 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title><%= htmlWebpackPlugin.options.title %></title>
+
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+      }
+
+      .c-canvas {
+          height: 100%;
+          left: 0;
+          position: absolute;
+          top: 0;
+          width: 100%;
+          z-index: 0;
+      }
+    </style>
   </head>
 
   <body>
-
+    <canvas class="c-canvas"></canvas>
   </body>
 </html>
