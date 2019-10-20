@@ -1,9 +1,6 @@
-import "./styles/index.scss";
-
-import * as dat from "dat.gui";
+import './styles/index.scss'
 
 // Test import of a JavaScript function, an SVG, and Sass
-import Application from "./js/index";
+import Application from './js/index'
 
-const gui = new dat.GUI();
-new Application();
+new Application()
